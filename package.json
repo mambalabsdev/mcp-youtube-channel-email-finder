@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-youtube-channel-email-finder",
+  "version": "1.0.0",
+  "description": "MCP server for YouTube Channel Email Finder. Email addresses channels publish on their about page or linked website, with the source of each. No login. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-youtube-channel-email-finder": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "youtube",
+    "email",
+    "creators",
+    "influencers",
+    "outreach",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/youtube-channel-email-finder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-youtube-channel-email-finder"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-youtube-channel-email-finder"
+}

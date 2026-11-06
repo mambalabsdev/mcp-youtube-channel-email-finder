@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-youtube-channel-email-finder": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-youtube-channel-email-finder"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
