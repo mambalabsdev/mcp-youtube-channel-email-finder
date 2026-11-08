@@ -81,7 +81,7 @@ Every buyer facing input of the actor. Omitted inputs take the actor's own defau
 | `max_channels_per_search` | number | no | Number as text, 1 to 200. Default 20. |
 | `min_subscribers` | number | no | Optional. Number as text. YouTube rounds subscriber counts, so this filter is approximate. |
 | `max_subscribers` | number | no | Optional. Number as text. YouTube rounds subscriber counts, so this filter is approximate. |
-| `check_websites` | boolean | no | yes (default) or no. Reads the home page and one contact or about page on a site the channel links to, obeying robots.txt. |
+| `check_websites` | boolean | no | no (default) or yes. yes reads the home page and one contact or about page on a site the channel links to, obeying robots.txt. It finds more addresses and costs more pages per run. |
 | `videos_to_check` | number | no | Number as text, 0 to 10. Default 0, which is off. YouTube answered most video page reads with a sign in gate in testing, so this finds little and takes longer. Read only when no address has been found yet. |
 | `check_all_sources` | boolean | no | no (default) stops at the first source with an address. yes reads them all, which takes longer. |
 | `max_charge_usd` | string | no | Optional. The run stops before a charge would pass this amount. |

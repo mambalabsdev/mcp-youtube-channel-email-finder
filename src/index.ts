@@ -225,7 +225,7 @@ server.registerTool(
       max_channels_per_search: z.number().optional().describe("Number as text, 1 to 200. Default 20."),
       min_subscribers: z.number().optional().describe("Optional. Number as text. YouTube rounds subscriber counts, so this filter is approximate."),
       max_subscribers: z.number().optional().describe("Optional. Number as text. YouTube rounds subscriber counts, so this filter is approximate."),
-      check_websites: z.boolean().optional().describe("yes (default) or no. Reads the home page and one contact or about page on a site the channel links to, obeying robots.txt."),
+      check_websites: z.boolean().optional().describe("no (default) or yes. yes reads the home page and one contact or about page on a site the channel links to, obeying robots.txt. It finds more addresses and costs more pages per run."),
       videos_to_check: z.number().optional().describe("Number as text, 0 to 10. Default 0, which is off. YouTube answered most video page reads with a sign in gate in testing, so this finds little and takes longer. Read only when no address has been found yet."),
       check_all_sources: z.boolean().optional().describe("no (default) stops at the first source with an address. yes reads them all, which takes longer."),
       max_charge_usd: z.string().optional().describe("Optional. The run stops before a charge would pass this amount."),
