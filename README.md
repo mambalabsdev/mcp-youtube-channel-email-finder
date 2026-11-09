@@ -93,8 +93,8 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
 | `channel-email`, one channel with a published email address found | $0.025 | $0.02375 | $0.0225 | $0.02125 |
-| `search-term`, one search term read, with or without matching channels | $0.0011 | $0.001045 | $0.00099 | $0.000935 |
-| `apify-actor-start`, per run start | $0.014 | $0.014 | $0.014 | $0.014 |
+| `search-term`, one search term read, with or without matching channels | $0.0025 | $0.002375 | $0.00225 | $0.002125 |
+| `apify-actor-start`, per run start | $0.018 | $0.018 | $0.018 | $0.018 |
 
 A channel with no published address, a refused page, and refused input are free. Each search term read is charged once. Mamba Labs pays the platform costs of the run, Apify proxy traffic included.
 
