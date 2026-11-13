@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-youtube-channel-email-finder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for YouTube Channel Email Finder. Email addresses channels publish on their about page or linked website, with the source of each. No login. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
